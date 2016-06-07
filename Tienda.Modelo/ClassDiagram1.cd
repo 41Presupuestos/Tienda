@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tienda.Modelo.Categoria">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tienda.Modelo.Producto">
+    <Position X="2" Y="1" Width="1.5" />
+    <AssociationLine Name="Categoria" Type="Tienda.Modelo.Categoria" ManuallyRouted="true">
+      <Path>
+        <Point X="3.5" Y="1.84" />
+        <Point X="5.5" Y="1.84" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.61" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAgAAAAgAAQgAAAAAAAAAAAQAAAAAI=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
